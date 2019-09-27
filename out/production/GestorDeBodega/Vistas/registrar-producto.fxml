@@ -8,12 +8,12 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
-
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.registrarProductoController">
    <left>
       <VBox alignment="CENTER" prefHeight="348.0" prefWidth="249.0" spacing="20.0" BorderPane.alignment="CENTER">
          <children>
             <Label text="Nombre" />
+            <Label text="ID" />
             <Label text="Categoria" />
             <Label text="SubCategoria" />
             <Label alignment="CENTER" text="Cantidad" />
@@ -25,6 +25,7 @@
       <VBox alignment="CENTER" prefHeight="348.0" prefWidth="245.0" spacing="15.0" BorderPane.alignment="CENTER">
          <children>
             <TextField fx:id="txtNombreProducto" />
+            <TextField fx:id="txtID" />
             <TextField fx:id="txtCategoria" />
             <TextField fx:id="txtSubCategoria" />
             <TextField fx:id="txtCantidad" />
@@ -38,7 +39,7 @@
    <bottom>
       <ButtonBar nodeOrientation="RIGHT_TO_LEFT" BorderPane.alignment="CENTER">
         <buttons>
-            <Button mnemonicParsing="false" text="Limpiar" />
+            <Button mnemonicParsing="false" onAction="#btnLimpiar" text="Limpiar" />
           <Button mnemonicParsing="false" onAction="#btnGuardarProducto" text="Guardar" />
         </buttons>
       </ButtonBar>

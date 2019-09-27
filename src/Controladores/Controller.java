@@ -34,4 +34,14 @@ public class Controller {
             e.printStackTrace();
         }
     }
+
+    public void btnListarProductos(){
+        try{
+            FXMLLoader cargador = new FXMLLoader(getClass().getResource("../Vistas/listar-productos.fxml"));
+            AnchorPane vistaListarProducto = cargador.load();
+            contenedorPrincipal.setCenter(vistaListarProducto);
+     }catch(IOException e){
+         e.printStackTrace();
+     }
+}
 }
