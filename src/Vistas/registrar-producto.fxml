@@ -8,9 +8,9 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.registrarProductoController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="336.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.registrarProductoController">
    <left>
-      <VBox alignment="CENTER" prefHeight="348.0" prefWidth="249.0" spacing="20.0" BorderPane.alignment="CENTER">
+      <VBox alignment="CENTER" prefHeight="254.0" prefWidth="193.0" spacing="20.0" BorderPane.alignment="CENTER">
          <children>
             <Label text="Nombre" />
             <Label text="ID" />
@@ -22,7 +22,7 @@
       </VBox>
    </left>
    <right>
-      <VBox alignment="CENTER" prefHeight="348.0" prefWidth="245.0" spacing="15.0" BorderPane.alignment="CENTER">
+      <VBox alignment="CENTER" prefHeight="346.0" prefWidth="171.0" spacing="15.0" BorderPane.alignment="CENTER">
          <children>
             <TextField fx:id="txtNombreProducto" />
             <TextField fx:id="txtID" />
@@ -34,6 +34,9 @@
          <BorderPane.margin>
             <Insets />
          </BorderPane.margin>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
       </VBox>
    </right>
    <bottom>

@@ -28,13 +28,8 @@ public class registrarProductoController {
     public void btnGuardarProducto(){
         boolean formularioValido = validarCampos(txtNombreProducto.getText(), txtID.getText(), txtCategoria.getText(), txtSubCategoria.getText(), txtCantidad.getText(), txtValor.getText());
         if (formularioValido) {
-            Producto producto = new Producto(txtNombreProducto.getText().trim(), txtID.getText().trim(), txtCategoria.getText().trim(), txtSubCategoria.getText().trim(), txtValor.getText().trim(), txtCantidad.getText().trim());
+            Producto producto = new Producto(txtNombreProducto.getText().trim(), txtID.getText().trim(), txtCategoria.getText().trim(), txtSubCategoria.getText().trim(), txtCantidad.getText().trim(), txtValor.getText().trim());
             productoBSN.guardarProducto(producto);
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setTitle("Guardado de productos");
-            alert.setHeaderText("Melo funcionó");
-            alert.setContentText(producto.getNombre()+" fue guardado exitosamente");
-            alert.showAndWait();
             limpiarCampos();
         } else {
             Alert alert = new Alert(Alert.AlertType.ERROR);
