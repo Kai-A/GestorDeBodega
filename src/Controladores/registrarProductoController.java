@@ -30,14 +30,12 @@ public class registrarProductoController {
         if (formularioValido) {
             Producto producto = new Producto(txtNombreProducto.getText().trim(), txtID.getText().trim(), txtCategoria.getText().trim(), txtSubCategoria.getText().trim(), txtCantidad.getText().trim(), txtValor.getText().trim());
             productoBSN.guardarProducto(producto);
-            limpiarCampos();
         } else {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setTitle("Guardado de productos");
             alert.setHeaderText("Si no sabemos escribir...");
             alert.setContentText("Digite los datos correctamente");
             alert.showAndWait();
-
         }
 
     }

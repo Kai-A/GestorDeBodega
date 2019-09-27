@@ -17,13 +17,15 @@ public class ProductoBSN {
     public void guardarProducto(Producto producto) {
         //todo validar reglas de negocio
         int d = 0;
-        if (verificarSiEsNumero(producto.getCantidad())){
+        int t=0;
+        if (verificarSiEsNumero(producto.getCantidad()) && verificarSiEsNumero(producto.getValor())){
             d = Integer.parseInt(producto.getCantidad());
-            if (d < 0) {
+            t=Integer.parseInt(producto.getValor());
+            if (d < 0 || t<0 ) {
                 Alert alert = new Alert(Alert.AlertType.ERROR);
                 alert.setTitle("Guardado de productos");
                 alert.setHeaderText("¡Hay un error!");
-                alert.setContentText("La cantidad tiene que ser igual o mayor a cero");
+                alert.setContentText("La cantidad y el valor tienen que ser igual o mayor a cero");
                 alert.showAndWait();
                 return;
             }
@@ -33,7 +35,7 @@ public class ProductoBSN {
                 Alert alert = new Alert(Alert.AlertType.ERROR);
                 alert.setTitle("Guardado de productos");
                 alert.setHeaderText("¡Hay un error!");
-                alert.setContentText("¡Tienes que digitar un numero! aaa");
+                alert.setContentText("¡Tienes que digitar un numero!");
                 alert.showAndWait();
                 return;
         }
@@ -43,6 +45,7 @@ public class ProductoBSN {
         alert.setHeaderText("Melo funcionó");
         alert.setContentText(producto.getNombre()+" fue guardado exitosamente");
         alert.showAndWait();
+
     }
     public void eliminarProducto(Producto producto){
         productoDAO.eliminarProducto(producto);
