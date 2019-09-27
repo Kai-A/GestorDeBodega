@@ -39,6 +39,17 @@ public class listarProductosController {
 
     @FXML
     private void initialize(){
+        actualizarLista();
+    }
+    private void seleccionarProducto(Producto ProductoSeleccionado) {
+        this.productoSeleccionado=ProductoSeleccionado;
+    }
+
+    public void btnEliminarProducto(){
+        productoBsn.eliminarProducto(productoSeleccionado);
+        actualizarLista();
+    }
+    public void actualizarLista(){
         List<Producto> productoList = productoBsn.listarProductos();
         ObservableList<Producto> productosObservables = FXCollections.observableList(productoList);
         tblProductos.setItems(productosObservables);
@@ -48,14 +59,9 @@ public class listarProductosController {
         clmSubcategoria.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getSubcategoria()));
         clmValor.setCellValueFactory(cellData -> new SimpleStringProperty((cellData.getValue().getValor())));
         clmCantidad.setCellValueFactory(cellData -> new SimpleStringProperty((cellData.getValue().getCantidad())));
-
-
         tblProductos.getSelectionModel().selectedItemProperty()
-                .addListener(((observable, oldValue, newValue) -> seleccionarProductos(newValue)));
+                .addListener(((observable, oldValue, newValue) -> seleccionarProducto(newValue)));
+    }
 
-    }
-    private void seleccionarProductos(Producto productoSeleccionado) {
-        this.productoSeleccionado=productoSeleccionado;
-    }
 
 }

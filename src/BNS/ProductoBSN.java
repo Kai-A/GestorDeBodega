@@ -18,7 +18,9 @@ public class ProductoBSN {
         productoDAO.guardarProducto(producto);
 
     }
-
+    public void eliminarProducto(Producto producto){
+        productoDAO.eliminarProducto(producto);
+    }
     public List<Producto> listarProductos() {
         return productoDAO.listarProductos();
     }
