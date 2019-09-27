@@ -39,7 +39,7 @@
    <bottom>
       <ButtonBar nodeOrientation="RIGHT_TO_LEFT" BorderPane.alignment="CENTER">
         <buttons>
-            <Button mnemonicParsing="false" text="Limpiar" />
+            <Button mnemonicParsing="false" onAction="#btnLimpiar" text="Limpiar" />
           <Button mnemonicParsing="false" onAction="#btnGuardarProducto" text="Guardar" />
         </buttons>
       </ButtonBar>
