@@ -61,4 +61,13 @@ public class ProductoBSN {
             return false;
         }
     }
+    public List<Producto> buscarCategoria(String Categoria){
+        return productoDAO.buscarCategoria(Categoria);
+    }
+    public List<Producto> buscarSubcategoria(String subCategoria){
+        return productoDAO.buscarSubcategoria(subCategoria);
+    }
+    public List<Producto> buscarNombre(String nombre){
+        return productoDAO.buscarNombre(nombre);
+    }
 }

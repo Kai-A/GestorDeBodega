@@ -2,10 +2,13 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.listarProductosController">
@@ -30,7 +33,25 @@
                         <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
                     </columnResizePolicy>
                 </TableView>
-            <Button mnemonicParsing="false" onAction="#btnEliminarProducto" text="Eliminar Producto" />
+            <ButtonBar prefHeight="40.0" prefWidth="200.0">
+              <buttons>
+                  <Button mnemonicParsing="false" onAction="#btnBuscarCategoria" prefHeight="25.0" prefWidth="149.0" text="Buscar por categoria" />
+                  <Button mnemonicParsing="false" onAction="#btnBuscarSubcategoria" text="Buscar por subcategoria" />
+                <Button mnemonicParsing="false" onAction="#btnBuscarNombre" text="Buscar por nombre" />
+                  <Button mnemonicParsing="false" onAction="#btnEliminarProducto" text="Eliminar Producto" />
+                  <Button mnemonicParsing="false" onAction="#btnMostrarLista" text="Mostrar lista completa" />
+              </buttons>
+            </ButtonBar>
+            <HBox prefHeight="79.0" prefWidth="535.0" spacing="25.0">
+               <children>
+                  <TextField fx:id="txtBuscarCategoria" promptText="categoria" />
+                  <TextField fx:id="txtBuscarSubcategoria" layoutX="10.0" layoutY="10.0" promptText="subcategoria" />
+                  <TextField fx:id="txtBuscarNombre" layoutX="159.0" layoutY="10.0" promptText="nombre" />
+               </children>
+               <padding>
+                  <Insets left="30.0" />
+               </padding>
+            </HBox>
             </children>
         </VBox>
     </children>
