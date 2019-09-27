@@ -49,6 +49,8 @@ public class listarProductosController {
         productoBsn.eliminarProducto(productoSeleccionado);
         actualizarLista();
     }
+
+
     public void actualizarLista(){
         List<Producto> productoList = productoBsn.listarProductos();
         ObservableList<Producto> productosObservables = FXCollections.observableList(productoList);
