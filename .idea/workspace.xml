@@ -2,15 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bsn/EmpleadoBSN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bsn/PersonaBSN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bsn/exception/CedulaInvalidaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/listarPersonasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/PersonaDAOList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/listar-personas.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/BNS/ProductoBSN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestorDeBodega/BNS/ProductoBSN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Controladores/listarProductosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestorDeBodega/Controladores/listarProductosController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/BNS/PersonaBNS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/BNS/ProductoBSN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Controladores/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Controladores/listarProductosController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Controladores/registrarPersonaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Controladores/registrarProductoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/DAO/PersonaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestorDeBodega/DAO/PersonaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/DAO/ProductoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestorDeBodega/DAO/ProductoDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/DAO/ProductoDAOList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestorDeBodega/DAO/ProductoDAOList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Vistas/listar-productos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestorDeBodega/Vistas/listar-productos.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BNS/ProductoBSN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BNS/ProductoBSN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controladores/listarProductosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controladores/listarProductosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/ProductoDAOList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/ProductoDAOList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vistas/listar-productos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vistas/listar-productos.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestorDeBodega/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Modelo/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Modelo/Empleado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Modelo/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Modelo/Producto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Vistas/listar-productos.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Vistas/principal.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Vistas/registrar-persona.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Vistas/registrar-producto.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BNS/PersonaBNS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BNS/ProductoBSN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bsn/ProductoBSN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controladores/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controladores/listarProductosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/listarProductosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controladores/registrarPersonaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/registrarPersonaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controladores/registrarProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/registrarProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/PersonaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/PersonaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/ProductoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ProductoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/ProductoDAOList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ProductoDAOList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modelo/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modelo/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modelo/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vistas/listar-productos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/listar-productos.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vistas/principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/principal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vistas/registrar-persona.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/registrar-persona.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vistas/registrar-producto.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/registrar-producto.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +134,9 @@
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Escritorio/tecnicas-de-programacion-master/tecnicas-de-programacion-master/TiendaMascotasFX" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
@@ -209,6 +246,7 @@
       <workItem from="1569337975472" duration="430000" />
       <workItem from="1569338514998" duration="11863000" />
       <workItem from="1569529504949" duration="20238000" />
+      <workItem from="1569623459669" duration="599000" />
     </task>
     <servers />
   </component>
