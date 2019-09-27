@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BNS/ProductoBSN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/ProductoDAOList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/BNS/ProductoBNS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Controladores/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestorDeBodega/Controladores/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Controladores/listarProductosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestorDeBodega/Controladores/listarProductosController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/DAO/ProductoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestorDeBodega/DAO/ProductoDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Modelo/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestorDeBodega/Modelo/Producto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/DAO/ProductoDAOList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestorDeBodega/DAO/ProductoDAOList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Vistas/listar-productos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestorDeBodega/Vistas/listar-productos.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestorDeBodega/Vistas/principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestorDeBodega/Vistas/principal.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BNS/ProductoBNS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controladores/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controladores/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BNS/ProductoBSN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BNS/ProductoBSN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controladores/listarProductosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controladores/listarProductosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controladores/registrarProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controladores/registrarProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/ProductoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/ProductoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/ProductoDAOList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/ProductoDAOList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vistas/listar-productos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vistas/listar-productos.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vistas/principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vistas/principal.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vistas/registrar-producto.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vistas/registrar-producto.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +207,7 @@
       <workItem from="1569275435097" duration="391000" />
       <workItem from="1569337975472" duration="430000" />
       <workItem from="1569338514998" duration="11863000" />
-      <workItem from="1569529504949" duration="12186000" />
+      <workItem from="1569529504949" duration="13056000" />
     </task>
     <servers />
   </component>
